@@ -5,13 +5,14 @@
             "default": true,
             "package": "electron-base",
             "versionName": "ver 0.1",
-            "versionNumber": "0.1.0.NEXT"
+            "versionNumber": "0.2.0.NEXT"
         }
     ],
     "namespace": "",
     "sfdcLoginUrl": "https://login.salesforce.com",
     "sourceApiVersion": "45.0",
     "packageAliases": {
-        "electron-base": "0Ho6A000000k9e7SAA"
+        "electron-base": "0Ho6A000000k9e7SAA",
+        "electron-base@0.2.0-1": "04t6A000002zhBvQAI"
     }
 }
