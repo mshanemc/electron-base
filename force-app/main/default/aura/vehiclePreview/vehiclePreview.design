@@ -1,3 +1,0 @@
-<design:component label="Vehicle Preview">
-    <design:attribute name="background" label="Background" datasource="None,Cityscape,Beach,Workshop,Factory,Showroom" default="None" />
-</design:component>
