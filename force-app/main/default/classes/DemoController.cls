@@ -160,7 +160,7 @@ public with sharing class DemoController {
         account.Phone = phone;
         account.BillingStreet = address.get('street');
         account.BillingCity = address.get('city');
-        account.BillingState = address.get('tate');
+        account.BillingState = address.get('state');
         account.BillingPostalCode = address.get('postcode');
         account.BillingCountry = address.get('country');
         account.ShippingStreet = address.get('street');
