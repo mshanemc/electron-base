@@ -17,8 +17,8 @@ public with sharing class DemoController {
     }
     
     @AuraEnabled
-    public static ID generateAccount() {
-        return createAccount();
+    public static void generateAccount() {
+        createAccount();
     }
     
     @AuraEnabled
@@ -116,7 +116,8 @@ public with sharing class DemoController {
         return null;
     }
     
-    public static ID createAccount() {
+    @future(callout = true)
+    public static void createAccount() {
         HTTPResponse response = getRandomUserMe();
         String first, last, street, city, state, postcode, email, username, phone, cell, dob;
         
@@ -181,8 +182,6 @@ public with sharing class DemoController {
         if (vehicle.Status__c == 'Purchase') {
             createLoan(contact, vehicle);
         }
-        
-        return account.Id;
     }
     
     public static Contact createContact(Account account, String first, String last, String email, String phone, String cell, String dob) {
