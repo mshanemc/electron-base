@@ -5,7 +5,7 @@
             "default": true,
             "package": "electron-base",
             "versionName": "ver 0.1",
-            "versionNumber": "0.5.0.NEXT"
+            "versionNumber": "0.6.0.NEXT"
         }
     ],
     "namespace": "",
@@ -15,6 +15,7 @@
         "electron-base": "0Ho6A000000k9e7SAA",
         "electron-base@0.2.0-1": "04t6A000002zhBvQAI",
         "electron-base@0.3.0-1": "04t6A000002zhC0QAI",
-        "electron-base@0.5.0-1": "04t6A000002zhGrQAI"
+        "electron-base@0.5.0-1": "04t6A000002zhGrQAI",
+        "electron-base@0.6.0-1": "04t6A000002zhbAQAQ"
     }
 }

@@ -4,6 +4,7 @@
     "description": "",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
+        "publish": "sfdx shane:package2:version:bump -m -c -r",
         "build": "sfdx shane:org:delete; ./orgInit.sh",
         "reset": "echo \"sfdx force:apex:execute -f scripts/dataWipe.cls && sfdx force:apex:execute -f scripts/init.cls\""
     },
