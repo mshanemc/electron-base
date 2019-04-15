@@ -309,6 +309,17 @@ public with sharing class DemoController {
         addresses.add(addAddress('12825 East Mirabeau Parkway', 'Spokane', 'WA', '99216', 'USA'));
         addresses.add(addAddress('4301 West Boy Scout Blvd', 'Tampa', 'FL', '33607', 'USA'));
         addresses.add(addAddress('10 Bay Street', 'Toronto', 'ON', 'M5J 2R8', 'Canada'));
+        addresses.add(addAddress('900 Bulldog Run', 'Rolla', 'MO', '65401', 'USA'));
+        addresses.add(addAddress('818 Sparta Hwy', 'Milledgeville', 'GA', '31061', 'USA'));
+        addresses.add(addAddress('1541 E 4th St', 'Casper', 'WY', '82601', 'USA'));
+        addresses.add(addAddress('2012 Northern Plains Dr', 'Bismarck', 'ND', '58504', 'USA'));
+        addresses.add(addAddress('22655 Fairfield Rd', 'St Augusta', 'MN', '56301', 'USA'));
+        addresses.add(addAddress('206 De Korra Ln', 'Wisconsin Dells', 'WI', '53965', 'USA'));
+        addresses.add(addAddress('1012 Grand River Dr NE', 'Ada', 'MI', '49301', 'USA'));
+        addresses.add(addAddress('400 Grant Ave', 'Duquesne', 'PA', '15110', 'USA'));
+        addresses.add(addAddress('551 Oakdale Rd', 'Jamestown', 'NC', '27282', 'USA'));
+        addresses.add(addAddress('4561 Springdale Rd', 'Millbrook', 'AL', '36054', 'USA'));
+        addresses.add(addAddress('22750 N May Ave', 'Edmond', 'OK', '73025', 'USA'));
         addresses.add(addAddress('7139 Kilback Mountains', 'Antonito', 'CO', '81120', 'USA'));
         addresses.add(addAddress('175 Dunlap Road', 'Craigmont', 'ID', '83523', 'USA'));
         addresses.add(addAddress('174 Unnamed Road', 'Youngstown', 'FL', '32466', 'USA'));
@@ -327,6 +338,18 @@ public with sharing class DemoController {
         addresses.add(addAddress('5167 Pauline Field', 'Challis', 'ID', '83226', 'USA'));
         addresses.add(addAddress('30208 Lookout Road', 'Paola', 'KS', '66071', 'USA'));
         addresses.add(addAddress('301 Sherman Street', 'Huntington', 'IN', '46750', 'USA'));
+        addresses.add(addAddress('620 N Westmoreland Rd', 'DeSoto', 'TX', '75115', 'USA'));
+        addresses.add(addAddress('307 Bentley Manor', 'Shavano Park', 'TX', '78249', 'USA'));
+        addresses.add(addAddress('6010 London Dr', 'Sunset Valley', 'TX', '78745', 'USA'));
+        addresses.add(addAddress('10105 Propps St NE', 'Albuquerque', 'NM', '87112', 'USA'));
+        addresses.add(addAddress('112 N El Rancho Rd', 'Santa Fe', 'NM', '87501', 'USA'));
+        addresses.add(addAddress('1335 Madison St NE', 'Salem', 'OR', '97301', 'USA'));
+        addresses.add(addAddress('6 Morningview Cir', 'Lake Oswego', 'OR', '97035', 'USA'));
+        addresses.add(addAddress('541 SW Georgetown Way', 'Beaverton', 'OR', '97006', 'USA'));
+        addresses.add(addAddress('30303 SE Lusted Rd', 'Gresham', 'OR', '97080', 'USA'));
+        addresses.add(addAddress('3604 84th St E', 'Tacoma', 'WA', '98446', 'USA'));
+        addresses.add(addAddress('658 Gibraltar Ct', 'Milpitas', 'CA', '95035', 'USA'));
+        addresses.add(addAddress('4766 E Whitmore Ave', 'Ceres', 'CA', '95307', 'USA'));
         return addresses[randomInt(0, addresses.size() - 1)];
     }
     
