@@ -220,6 +220,7 @@ public with sharing class DemoController {
         vehicle.Hydraulic_System__c = randomBoolean();
         vehicle.Battery__c = randomString(new string[]{'75 kWh', '100 kWh', '100P kWh'});
         vehicle.Owner__c = contact.Id;
+        vehicle.Account__c = account.Id;
         vehicle.Cancelled__c = false;
         
         /*
